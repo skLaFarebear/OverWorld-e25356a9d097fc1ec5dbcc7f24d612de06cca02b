@@ -1,0 +1,52 @@
+Game Starts
+	List of years are randomized
+
+	First 4 cards are placed in the Timeline, sorted by year, with a space between the center two.
+
+	Next 5 cards are placed in the Hand (unsorted: in random order).
+
+	Instructions appear at the top of the screen, "Select a Card to insert into the Timeline."
+	
+	Select a Card from the Hand
+	1	You can use the mouse to click on any Card in the Hand to select it
+		OR 
+		You can use left and right keys to move through the Hand, then click Return to select it
+	2		Another copy of the card is displayed, enlarged, and centered over the Hand.
+			Instructions update at the top of the screen, "Click on the arrows or use the left and right arrow key to scroll the Timeline. Left Click the selected card or press return to place this card into the Timeline."
+	3			Scroll the Timeline left or right by left-clicking on the arrow buttons.
+				OR
+				Scroll the Timeline left or right by using the left and right arrow keys.
+	4a1				Left click on the Empty Space in the Timeline to place it in the Timeline.
+					OR
+					Press Return to place it in the Timeline.
+	4a2					If the Card is placed correctly in the Timeline, play a triumphant sound
+						and, destroy the Selected Card, and move the Card that was selected from
+						the Hand to the Timeline.
+	5a						If there are Cards left in the Hand, Return to 1
+							OR
+	6a						If there are no Cards left, play victory music, display a You Win banner,
+							display instructions "Use left/right arrow keys or click arrows to scroll
+							through timeline.  Press Escape to return to Load Screen."
+
+	4b1				OR
+					Right click to release the Card back into the Hand.
+					OR
+					Press Escape to release the Card back into the Hand.
+	4b2					If the Card is placed incorrectly in the Timeline, play a defeat sound, 
+						flash the large Scarlet Knight facepalm on the screen, and enable the 
+						first facepalm placeholder. After 3 seconds, remove the larger Scarlet 
+						Knight image, and remove the Selected Card copy.
+	5a						If there are less than 3 total Facepalm tokens, Return to 1.	
+							OR
+	6b						If there are 3 total Facepalm tokens, display a You Lose banner, 
+							display revealed side of cards in Hand,	display instructions 
+							"Use left/right arrow keys or click arrows to scroll
+							through timeline.  Press Escape to return to Load Screen.""
+
+
+
+
+
+
+
+  5 cards are dealt to the Hand area
